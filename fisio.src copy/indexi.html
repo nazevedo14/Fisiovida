@@ -1,0 +1,255 @@
+
+   <!DOCTYPE html>
+   <html>
+   <head>
+     <title>FisioVida-Blog de Saúde e Bem-Estar</title>
+     <style>
+      p {
+    line-height: 1.5; /* Espaçamento entre linhas adequado */
+    }
+      body {
+        background-image: url("fundo.png");
+      }
+       ul {
+        background-color: #BDEFFE;
+      }
+    
+      .tab-content {
+         display: none;
+       }
+
+
+       /* Estilo do botão */
+       .tab-link {
+            background-color: #BDEFFE; /* Cor de fundo */
+            color: #00570c; /* Cor do texto */
+            padding: 10px 20px; /* Espaçamento interno */
+            border: none; /* Sem borda */
+            border-radius: 5px; /* Cantos arredondados */
+            cursor: pointer; /* Altera o cursor ao passar o mouse */
+            transition: background-color 0.3s ease; /* Efeito de transição suave */
+        }
+    
+
+
+     </style>
+
+     <script>
+       function openTab(evt, tabName) {
+         var i, tabContent, tabLinks;
+         
+         tabContent = document.getElementsByClassName("tab-content");
+         for (i = 0; i < tabContent.length; i++) {
+           tabContent[i].style.display = "none";
+         }
+         
+         tabLinks = document.getElementsByClassName("tab-link");
+         for (i = 0; i < tabLinks.length; i++) {
+           tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+         }
+         
+         document.getElementById(tabName).style.display = "block";
+         evt.currentTarget.className += " active";
+       }
+     </script>
+   </head>
+   <body>
+    <h2 style="text-align: center; font-size: 60px; color: hsl(194, 87%, 41%);">FisioVida</h2>
+       
+     <div class="tab">
+       <button class="tab-link" onclick="openTab(event, 'Sobre')">Sobre</button>
+       <button class="tab-link" onclick="openTab(event, 'Curiosidades')">Curiosidades</button>
+       <button class="tab-link" onclick="openTab(event, 'Lesões Comuns')">Lesões Comuns</button>
+       <button class="tab-link" onclick="openTab(event, 'Técnicas de Reabilitação')">Técnicas de Reabilitação</button>
+     </div>
+     
+     <div id="Sobre" class="tab-content">
+       <h3></h3>
+       <ul>
+         </th>   
+            <th>
+              <p style="font-size: 20px;">FisioVida é um espaço online dedicado a compartilhar informações valiosas sobre saúde, reabilitação e bem-estar físico.</p>
+             </th></li>
+         </th> 
+        <th>
+          <p style="font-weight: bold; font-size: 20px;">Principais objetivos da fisioterapia:</p>
+          <p style="font-size: 18xp;">Reabilitação: A fisioterapia é frequentemente utilizada para ajudar na reabilitação após lesões, 
+            cirurgias ou doenças que afetam o sistema musculoesquelético. Os fisioterapeutas trabalham para restaurar a função normal dos 
+            músculos, articulações e outros tecidos afetados. </p>
+          <p style="font-size: 18xp;">Alívio da dor: Os fisioterapeutas podem empregar várias técnicas para aliviar a dor, como massagem, 
+            terapia manual, aplicação de calor ou frio, eletroterapia e exercícios terapêuticos. </p>
+        <p style="font-size: 18xp;"> <strong> Melhoria da mobilidade e flexibilidade: </strong> Através de exercícios específicos, alongamentos e técnicas de mobilização, os fisioterapeutas ajudam a melhorar a mobilidade articular e a flexibilidade muscular dos pacientes.</p>
+        <p style="font-size: 18xp;"> <strong> Prevenção de lesões:</strong> Além de tratar lesões existentes, a fisioterapia também é focada na prevenção de lesões futuras, especialmente em atletas e pessoas com risco aumentado de problemas musculoesqueléticos.</p>
+        <p style="font-size: 18xp;"> <strong> Reabilitação neurológica:</strong> Em casos de lesões ou doenças do sistema nervoso central ou periférico, como acidentes vasculares cerebrais (AVCs) ou lesões na medula espinhal, a fisioterapia pode ajudar na reabilitação funcional e na recuperação das habilidades motoras.</p>
+        <p style="font-size: 18xp;"> <strong> Promoção da saúde e bem-estar:</strong> Além do tratamento de condições específicas, a fisioterapia também enfatiza a promoção da saúde e o bem-estar geral dos pacientes por meio de atividade física adequada, educação sobre postura e ergonomia, entre outros.</p>
+         </th>
+         </th>
+            <p> Os fisioterapeutas são profissionais de saúde qualificados, geralmente com um diploma de bacharel ou mestrado em fisioterapia. Eles trabalham em diversos cenários, como hospitais, clínicas, consultórios particulares, centros de reabilitação, unidades de cuidados domiciliares, entre outros. É importante ressaltar que, para receber tratamento de fisioterapia, é necessário procurar um profissional licenciado e devidamente registrado em órgãos reguladores da profissão, garantindo a segurança e a eficácia dos cuidados prestados.</p>
+          </th>
+       
+     </div>
+     
+     <div id="Curiosidades" class="tab-content">
+       <h3></h3>
+       <ul>
+         </th>   
+            <th>
+              <p style="font-weight: bold; font-size: 18xp;">Curiosidades sobre a fisioterapia</p>
+              <p style="font-size: 18xp;"><strong>Origem Antiga:</strong> A fisioterapia tem raízes antigas e sua prática pode ser rastreada até os tempos 
+                antigos, incluindo civilizações como Egito, Grécia e China. As técnicas de massagem e 
+                exercícios terapêuticos foram utilizadas para tratar várias condições físicas e melhorar a mobilidade. </p>
+              <p style="font-size: 18xp;"><strong>Tecnologia Avançada:</strong> A fisioterapia moderna utiliza tecnologia avançada em suas práticas. 
+                Isso inclui equipamentos como máquinas de terapia por ondas de choque, laser, ultrassom, eletroterapia e realidade virtual para 
+                auxiliar na reabilitação e tratamento.</p>
+              <p style="font-size: 18xp;"><strong>Diversidade de Especialistas:</strong> A fisioterapia abrange uma ampla variedade de especialidades, 
+                incluindo fisioterapia esportiva, fisioterapia neurológica, fisioterapia ortopédica, fisioterapia pediátrica, 
+                fisioterapia respiratória, entre outras. Cada especialidade se concentra em áreas específicas de tratamento. </p>
+              <p style="font-size: 18xp;"><strong>Atuação em Diferentes Idades:</strong> Os fisioterapeutas trabalham com pacientes de todas as idades, 
+                desde recém-nascidos até idosos. Eles atendem a uma ampla gama de condições, desde lesões esportivas até problemas de 
+                saúde crônicos. </p>
+              <p style="font-size: 18xp;"><strong>Exercícios Terapêuticos:</strong> Os exercícios terapêuticos desempenham um papel fundamental na 
+                fisioterapia. Os fisioterapeutas prescrevem exercícios personalizados para ajudar a fortalecer músculos, 
+                melhorar a flexibilidade, equilíbrio e mobilidade. </p>
+              <p style="font-size: 18xp;"><strong>Prevenção de Lesões:</strong> Além de tratar lesões e condições existentes, 
+                a fisioterapia também é importante na prevenção de lesões. Fisioterapeutas podem fornecer orientações sobre postura, 
+                ergonomia e técnicas adequadas de movimento para evitar problemas futuros. </p>
+              <p style="font-size: 18xp;"><strong>Globalmente Reconhecida:</strong> A fisioterapia é uma profissão reconhecida e regulamentada em 
+                muitos países ao redor do mundo. Ela desempenha um papel significativo no sistema de saúde, contribuindo para o bem-estar 
+                e a qualidade de vida das pessoas.</p>
+             </th>
+     </div>
+
+     <div id="Lesões Comuns" class="tab-content">
+       <h3></h3>
+       <ul>
+         </th>   
+            <th>
+              <p style="font-weight: bold; font-size: 20px;"></p>
+              <p style="font-size: 18xp;"> <strong>1. Distensão muscular</strong></p>
+              <p style="font-size: 18xp;"> Uma distensão muscular é um alongamento ou ruptura parcial de um músculo. 
+                É uma das lesões mais comuns na fisioterapia e pode ocorrer devido a uma variedade de fatores, incluindo excesso de 
+                uso, movimentos repentinos ou falta de aquecimento. Os sintomas de uma distensão muscular incluem dor, inchaço, 
+                vermelhidão e perda de função muscular. O tratamento geralmente envolve repouso, gelo, compressão e elevação (RICE) 
+                e fisioterapia.</p>
+              <p style="font-size: 18xp;"><strong>2. Tendinite</strong></p>
+              <p style="font-size: 18xp;">A tendinite é uma inflamação de um tendão. Os tendões são estruturas fibrosas que 
+                conectam os músculos aos ossos. A tendinite pode ocorrer devido a uma variedade de fatores, incluindo excesso 
+                de uso, movimentos repetitivos ou lesões. Os sintomas da tendinite incluem dor, inchaço, vermelhidão e perda de 
+                função. O tratamento geralmente envolve repouso, gelo, compressão e elevação (RICE), medicamentos 
+                anti-inflamatórios e fisioterapia.</p>
+              <p style="font-size: 18xp;"><strong>3. Entorse</strong> </p>
+              <p style="font-size: 18xp;"> Uma entorse é uma lesão ligamentar. Os ligamentos são estruturas fibrosas que 
+                conectam dois ossos juntos. Uma entorse ocorre quando um ligamento é alongado ou rompido. 
+                As entorses podem ocorrer devido a uma variedade de fatores, incluindo movimentos repentinos, 
+                quedas ou lesões. Os sintomas de uma entorse incluem dor, inchaço, vermelhidão e perda de função. 
+                O tratamento geralmente envolve repouso, gelo, compressão e elevação (RICE), medicamentos 
+                anti-inflamatórios e fisioterapia.</p>
+              <p style="font-size: 18xp;"><strong>4. Fratura</strong> </p>
+              <p style="font-size: 18xp;">Uma fratura é uma quebra no osso. As fraturas podem ocorrer devido a uma 
+                variedade de fatores, incluindo acidentes, quedas ou lesões esportivas. Os sintomas de uma fratura 
+                incluem dor, inchaço, vermelhidão e deformidade. O tratamento de uma fratura geralmente envolve 
+                imobilização do osso, cirurgia ou ambos.</p>
+              <p style="font-size: 18xp;"><strong>5. Fratura por estresse </strong> </p>
+              <p style="font-size: 18xp;">Uma fratura por estresse é uma pequena rachadura em um osso que ocorre devido a 
+                estresse repetitivo. As fraturas por estresse são comuns em atletas e pessoas que participam de 
+                atividades físicas intensas. Os sintomas de uma fratura por estresse incluem dor, inchaço e 
+                sensibilidade. O tratamento de uma fratura por estresse geralmente envolve repouso, gelo, compressão e 
+                elevação (RICE), medicamentos anti-inflamatórios e fisioterapia.</p>
+             </th>
+     </div>
+     <div id="Técnicas de Reabilitação" class="tab-content">
+      <h3></h3>
+      <ul>
+        </th>   
+           <th>
+             <p style="font-size: 18xp;"> <strong>Terapia Manual:</strong> A terapia manual é uma das áreas da fisioterapia onde o fisioterapeuta avalia o seu pasciente como um todo, tendo
+            em conta sinais e sintomas como a dor, detectando disfunções do movimento e testando tecidos estruturais anatomicos. Após a avaliação , o fisioterapeuta realiza um programa de 
+            tratamento relacionado diretamente com os achados dessa valiação, tendo em conta os objetivos terapêuticos e os objetivos específicos do paciente. A terapia manual não é apenas uma 
+            especialidade  que utiliza técnicas de mobilização passiva, já que os terapeutas especializados em terapia manual utilizam inúmeras técnicas e procedimentos específicos como a massagem de tecidos moles, a facilitação neuromuscular proprioceptiva, a reeducação postural, os exercícios para melhoria da força, coordenação, flexibilidade e estabilização segmentar, assim como manipulação, mobilização articular e mobilização neural. </p>
+            <img src="terapia-manual.png" alt="Descrição da imagem" style="width: 300px; height: 200px;">
+            <p style="font-size: 18xp"> <strong>Objetivos:</strong></p>
+             <p style="font-size: 18xp"> a) Identificar e corrigir disfunções de movimento nas articulações da coluna vertebral, membros superiores e membros inferiores.</p>
+             <p style="font-size: 18xp">b) Entender a relação entre as alterações do movimento normal e a disfunção dos componentes articulares, sistema nervoso e sistema circulatório.</p>
+             <p style="font-size: 18xp">c) Avaliar e corrigir desequilíbrios posturais e biomecânicos através de técnicas específicas, técnicas de mobilização dos tecidos e posturas de alongamento.</p>
+             <p style="font-size: 18xp"></p>
+             <p style="font-size: 18xp;"> <strong>Liberação miofascial:</strong> A liberação miofascial é uma técnica de fisioterapia usada para aliviar a tensão e dor muscular e promover o relaxamento da musculatura, ajudando a prevenir e tratar lesões, como contraturas, tendinite, dor no nervo ciático, fascite plantar e tensão muscular no pescoço, por exemplo. </p>
+             <img src="liberação miofascial.png" alt="Descrição da imagem" style="width: 300px; height: 200px;">
+             <p></p>A liberação miofascial atua diretamente na fáscia, que é o tecido que envolve os músculos, é deve ser feita pelo fisioterapeuta realizando um pouco de pressão na musculatura, o que pode ser feito com a mão ou usando acessórios específicos.
+             <p style="font-size: 18xp"> <strong>Quando é indicada:</strong></p>
+             <ul>
+              <li>Dor na lombar</li>
+              <li>Dor no nervo ciático</li>
+              <li>Tensão muscular, principalmente na região do pescoço</li>
+              <li>Contraturas</li>
+              <li>Síndrome do túnel do carpo</li>
+              <li>Tendinite</li>
+              <li>Fascite plantar</li> 
+            </ul>
+             <p>Essa técnica é mais comum de ser realizada em pessoas que praticam atividade física de alta intensidade ou com muita frequência, como praticantes de musculação ou crossfit, praticantes de atletismo ou de esportes de equipe.</p>
+             <p style="font-size: 18xp;"> <strong>Eletroterapia:</strong> A eletroterapia é um tipo de tratamento fisioterápico que consiste no uso de equipamentos que emitem correntes elétricas ou ondas sonoras, que não trazem risco para a saúde, e que tem como objetivo de ajudar no controle da dor, melhorar a irrigação sanguínea, ou acelerar a cicatrização da pele e a regeneração de outros tecidos.</p>
+             <img src="eletroterapia.png" alt="Descrição da imagem" style="width: 300px; height: 200px;">
+             <p style="font-size: 18xp"> Este tipo de tratamento pode ser indicado pelo fisioterapeuta nos casos de inchaço, dor, espasmos ou para fortalecimento muscular, por exemplo. Além disso, a eletroterapia pode ser usada em tratamentos estéticos como gordura localizada, celulite ou rugas e linhas de expressão, devendo ser realizada por um fisioterapeuta dermato-funcional.  </p>
+             <p style="font-size: 18xp"> Durante uma sessão de fisioterapia é comum o uso de pelo menos um equipamento de eletroterapia que deve ser indicado e usado por um fisioterapeuta, de forma individualizada, de acordo com a necessidade de cada pessoa. </p>
+             <p style="font-size: 18xp"> <strong> Principais tipos de eletroterapia</strong></p>
+             <p style="font-size: 18xp"> <strong> 1. TENS - Terapia por estimulação elétrica nervosa transcutânea </strong> </p>
+             <img src="tens.png" alt="Descrição da imagem" style="width: 300px; height: 200px;">
+             <p style="font-size: 18xp"> A terapia por estimulação elétrica nervosa transcutânea (TENS), consiste na emissão de correntes elétricas pulsadas que estimulam nervos e músculos através da pele, o que bloqueia os sinais de dor e aumenta a produção de substâncias fisiológicas do organismo que têm efeito analgésico, como as endorfinas</p>
+             <p style="font-size: 18xp"> Para a aplicação, os eletrodos são colocados diretamente na pele, e a intensidade da corrente elétrica é ajustada para cada pessoa. Geralmente, o tratamento é realizado em dias alternados, e o número de sessões de individualizada de acordo com as necessidades de cada pessoa, geralmente durante 20 minutos.</p>
+             <ul>
+              <li><strong>Para que serve:</strong> a TENS é indicada para tratamento da dor no pós-operatório, fratura, e em caso de dores crônicas, como lombalgia, cervicalgia, no nervo ciático, na bursite, por exemplo. Embora não seja muito usado para este fim, também pode ser usado para combater o enjôo no pós-operatório.</li>
+              <li><strong>Contraindicações:</strong>  esse tipo de eletroterapia não deve ser feito em caso de epilepsia porque pode desencadear uma crise convulsiva. Além disso, não deve ser colocado sobre o útero durante a gravidez, sobre a pele ferida, na boca e sobre a carótida.</li>
+            </ul>
+             
+             <p style="font-size: 18xp"><strong> 2. Ultrassom </strong></p>
+             <img src="ultrassom.png" alt="Descrição da imagem" style="width: 300px; height: 200px;">
+             <p style="font-size: 18xp"> O aparelho de ultrassom utilizado na eletroterapia é capaz de emitir ondas sonoras que fornecem vibrações mecânicas que favorecem a regeneração dos tecidos afetados, pela estimulação do fluxo de sangue e aumento do metabolismo.</p>
+             <p style="font-size: 18xp"> Esta técnica é realizada através do deslizamento do aparelho sobre à pele, após ter sido limpa e preparada com um gel, e o números de sessões é indicada pelo fisioterapeuta, de acordo com as necessidades de cada pessoa. O tempo de tratamento deve ser de no mínimo 5 minutos para cada área com 5 centímetros.</p>
+             <ul>
+              <li><strong>Para que serve:</strong> o ultrassom é indicado em caso de dores musculares provocadas por contraturas ou tensões, espasmos musculares, tendinites, bloqueios articulares e no tratamento de cicatrizes, osteoartrite, rigidez articular ou para diminuir o inchaço local.</li>
+              <li><strong>Contraindicações:</strong> esse tipo de eletroterapia não é indicado no caso de diminuição da sensibilidade local, gravidez, doença cardiovascular avançada, câncer de pele no local, circulação sanguínea prejudicada na região ou sobre feridas abertas ou áreas da pele com infecção, seios ou órgãos sexuais, por exemplo.</li>
+            </ul>
+             
+             <p style="font-size: 18xp"><strong> 3. Corrente Russa </strong></p>
+             <img src="corrente russa.png" alt="Descrição da imagem" style="width: 300px; height: 200px;">
+             <p style="font-size: 18xp">A corrente russa é uma técnica de eletroestimulação que utiliza eletrodos posicionados estrategicamente na região a ser tratada e emitem ondas elétricas de alta intensidade, mas que não causam dor, e atuam atua a nível muscular, sendo capaz de promover um aumento da força e do volume muscular, pois atua melhorando a circulação sanguínea e reduzindo a flacidez local.</p>
+             <ul>
+              <li><strong>Para que serve:</strong> a corrente russa é muito usada para o fortalecimento dos músculos, pois o seu efeito pode facilitar a contração muscular, principalmente em casos de fraqueza ou atrofia muscular. Além disso, pode ser indicado para tratamentos estéticos, facilitando a drenagem linfática e combatendo a flacidez.</li>
+              <li><strong>Contraindicações:</strong> esse tipo de terapia não deve ser feita em caso de marcapasso cardíaco, epilepsia, doença mental, sobre o útero durante a gravidez, em caso de trombose venosa profunda ou flebite recente, em caso de fratura recente.</li>
+              
+            </ul>
+             <p style="font-size: 18xp"><strong>4. Terapia a laser de baixa intensidade</strong></p>
+             <img src="terapia a laser.png" alt="Descrição da imagem" style="width: 300px; height: 200px;">
+             <p style="font-size: 18xp">Laser é um tipo de fototerapia capaz de produzir um efeito anti-inflamatório, analgésico, regenerador e cicatrizante dos tecidos. A aplicação do laser costuma ser feita pelo fisioterapeuta no local da dor, e a dose e número de sessões realizadas dependerá do tipo e gravidade da lesão.</p>
+             <ul>
+              <li><strong>Para que serve:</strong> a laserterapia é indicada em caso de inchaço ou inflamações de articulações, tendões e ligamentos, tendões nos nervos, tendo bons resultados para controlar a dor e estimular a regeneração do tecido lesionado.</li>
+              <li><strong>Contraindicações:</strong> sobre os olhos, câncer, sobre o útero durante a gravidez, hemorragia no local de aplicação, pessoa com deficiência mental, que não colabora com as indicações do terapeuta.</li>
+            </ul>
+             
+            <p style="font-size: 18xp"><strong>5. FES - Estimulação elétrica funcional</strong></p>
+            <img src="fes.png" alt="Descrição da imagem" style="width: 300px; height: 200px;">
+             <p style="font-size: 18xp"> A estimulação elétrica funcional (FES) é feita com um aparelho que emite correntes elétricas alternadas de baixa intensidade e leva à contração muscular de um grupo muscular paralisado ou extremamente fraco, como em caso de paralisia cerebral, hemiplegia ou paraplegia, por exemplo.</p>
+             <p style="font-size: 18xp"> O tempo de contração muscular varia de acordo com a quantidade de músculos que precisam ser trabalhados, mas dura cerca de 10 a 20 minutos por áreas de tratamento.</p>
+             <ul>
+              <li><strong>Para que serve:</strong> a FES é indicada quando é preciso favorecer o fortalecimento muscular em pessoas que não conseguem controlar o movimento, como em caso de paralisia, sequela de AVC, ou em atletas para melhorar o rendimento do treino por recrutar mais fibras que a contração normal. </li>
+              <li><strong>Contraindicações:</strong> esse tipo de tratamento não deve ser feito por pessoas com marcapasso, ou sobre o coração, seio carotídeo, em caso de espasticidade, se houver lesão no nervo periférico da região.</li>
+            </ul>
+            <p style="font-size: 18xp"><strong>6. Diatermia por ondas curtas</strong></p>
+            <img src="diatermia.png" alt="Descrição da imagem" style="width: 300px; height: 200px;">
+            <p style="font-size: 18xp">A diatermia por ondas curtas é um tipo de eletroterapia feito com um aparelho que emite radiações eletromagnéticas, que são transformadas em calor de forma profunda pelo corpo, ajudando a diminuir a inflamação, a rigidez muscular e a aliviar os espasmos nos músculos profundos do corpo. </p>
+            <p style="font-size: 18xp">Além disso, a diatermia por ondas curtas ajuda a regenerar tecidos lesionados, diminuir hematomas e favorecer a regeneração dos nervos periféricos.</p>
+            <ul>
+              <li><strong>Para que serve:</strong> a diatermia por ondas curtas é indicada em situações quando é necessário que o calor atinja camadas mais profundas, como em caso de lombalgia, dor ciática e outras alterações na coluna ou no quadril, por exemplo.</li>
+              <li><strong>Contraindicações:</strong> esse tipo de eletroterapia não deve ser feito por pessoas com marcapasso, fixadores externos ou internos na região onde deseja tratar, alterações de sensibilidade. Além disso, não deve ser feito na gravidez, câncer, tuberculose, trombose venosa profunda recente, em caso de febre, em crianças e adolescentes para não comprometer o crescimento ósseo.</li>
+            </ul>
+            <p style="font-size: 18xp"><strong>7. Fotoquimioterapia com psoraleno - PUVA</strong></p>
+            <img src="fotoquico.png" alt="Descrição da imagem" style="width: 300px; height: 200px;">
+            <p style="font-size: 18xp">A fotoquimioterapia com psoraleno (PUVA) é um tratamento combinado que consiste em primeiro em tomar uma substância chamada psoraleno, indicada pelo médico, e 2 horas depois, expor a área que será tratada à radiação ultravioleta. Também é possível aplicar psoraleno em forma de pomada ou misturar numa bacia com água, mantendo a parte a ser tratada imersa durante a exposição à radiação.</p>
+            <ul>
+              <li><strong>Para que serve:</strong> a fotoquimioterapia com psoraleno é indicada especialmente em caso de vitiligo, psoríase, eczema, líquen plano ou urticária pigmentosa.</li>
+              <li><strong>Contraindicações:</strong> esse tipo de terapia não deve ser feito em casos de câncer de pele melanoma ou outros, ou uso de outros remédios fotossensibilizantes.</li>
+            </ul>
+            </th>
+    </div>   
+  </body>
+</html>
+   
